@@ -2,7 +2,7 @@ client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
 response = client.chat.completions.create(
   # Specify the model
-  model="gpt-4o-mini",
+  model="gpt-4o-mini", #<=== Modified
   messages=[
     # Assign the correct role
     {"role": "user", 
