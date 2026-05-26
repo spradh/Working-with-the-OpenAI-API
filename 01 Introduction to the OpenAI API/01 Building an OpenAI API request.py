@@ -1,8 +1,8 @@
 # Create the OpenAI client
-client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+client = OpenAI(api_key="<OPENAI_API_TOKEN>") #<=== Modified
 
 # Create a request to the Chat Completions endpoint
-response = client.chat.completions.create(
+response = client.chat.completions.create( #<=== Modified
   model="gpt-4o-mini",
   messages=[
     {"role": "user", 
